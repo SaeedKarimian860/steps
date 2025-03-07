@@ -20,7 +20,7 @@ export default function App() {
       </p>
 
       <div className="buttons">
-        <button style={{ backgroundColor: "#7950f2", color: "#fff" }}>
+        <button style={{ backgroundColor: "#7950f2", color: "#fff" }} onClick={()=> alert("Previous")}>
           Previous
         </button>
         <button style={{ backgroundColor: "#7950f2", color: "#fff" }}>
