@@ -13,7 +13,7 @@ export default function App() {
   // const [test, setTest] = useState({ name: "Saeed" });
 
   function handlePrevious() {
-    if (step > 1) setStep((s) => s - 1 );
+    if (step > 1) setStep((s) => s - 1);
   }
 
   function handleNext() {
