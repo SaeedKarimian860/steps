@@ -50,7 +50,7 @@ function Steps() {
           </div>
 
           <p className="message">
-            Step {step}: {messages[step - 1]}
+            <h3>Step {step}</h3> {messages[step - 1]}
             {/* {test.name} */}
           </p>
 
@@ -67,6 +67,10 @@ function Steps() {
       )}
     </div>
   );
+}
+
+function stepMessage() {
+  
 }
 
 function Button({ textColor, bgColor, onClick, children }) {
